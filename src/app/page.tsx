@@ -1,16 +1,13 @@
-import React from 'react'
-import Chat from '@/components/chat'
+import React from "react";
+import Chat from "@/components/chat";
 const page = () => {
   return (
-    <div>
-      hello world!
+    <div className="w-screen h-screen bg-zinc-200">
       <div>
-        <Chat/>
-
-        
+        <Chat />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
